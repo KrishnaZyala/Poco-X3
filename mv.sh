@@ -1,11 +1,12 @@
 #!/bin/sh 
-mkdir ./backup
+mkdir -p ./backup/cust
 mv -f /cust/app ./backup/cust
 mv -f /cust/cust ./backup/cust
 mv -f /cust/etc ./backup/cust
 mv -f /cust/lost+found ./backup/cust
 mv -f /cust/prebuilts ./backup/cust
 
+mkdir -p ./backup/product/app
 mv -f /product/app/Chrome ./backup/product/app
 mv -f /product/app/Gmail2 ./backup/product/app
 mv -f /product/app/GoogleContacts ./backup/product/app
@@ -16,10 +17,12 @@ mv -f /product/app/Messages ./backup/product/app
 mv -f /product/app/PhotoTable ./backup/product/app
 mv -f /product/app/YouTube ./backup/product/app
 
+mkdir -p ./backup/product/priv-app
 mv -f /product/priv-app/AndroidAutoStub ./backup/product/priv-app
 mv -f /product/priv-app/GoogleAssistant ./backup/product/priv-app
 mv -f /product/priv-app/Wellbeing ./backup/product/priv-app
 
+mkdir -p ./backup/system/app
 mv -f /system/app/AnalyticsCore ./backup/system/app
 mv -f /system/app/Calculator ./backup/system/app
 mv -f /system/app/CloudService ./backup/system/app
@@ -41,9 +44,11 @@ mv -f /system/app/PlayAutoInstallStubApp ./backup/system/app
 mv -f /system/app/SystemAppUpdater ./backup/system/app
 mv -f /system/app/XiaomiServiceFramework ./backup/system/app
 
+mkdir -p ./backup/system/data-app
 mv -f /system/data-app/MiCreditInStub ./backup/system/data-app
 mv -f /system/data-app/MiMediaEditor ./backup/system/data-app
 
+mkdir -p ./backup/system/priv-app
 mv -f /system/priv-app/Calendar ./backup/system/priv-app
 mv -f /system/priv-app/CleanMaster ./backup/system/priv-app
 mv -f /system/priv-app/facebook-installer ./backup/system/priv-app
@@ -59,6 +64,7 @@ mv -f /system/priv-app/MiuiScanner ./backup/system/priv-app
 mv -f /system/priv-app/Weather ./backup/system/priv-app
 mv -f /system/priv-app/YellowPage ./backup/system/priv-app
 
+mkdir -p ./backup/vendor/data-app
 mv -f /vendor/data-app/GlobalFashiongallery ./backup/vendor/data-app
 mv -f /vendor/data-app/wps_lite ./backup/vendor/data-app
 mv -f /vendor/data-app/XMRemoteController ./backup/vendor/data-app
