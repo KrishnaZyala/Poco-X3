@@ -1,0 +1,1 @@
+cp -R ./product/app/Chrome /product/app/
