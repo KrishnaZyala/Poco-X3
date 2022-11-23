@@ -1,4 +1,5 @@
-#!/bin/sh ./backup
+#!/bin/sh 
+mkdir ./backup
 mv -f /cust/app ./backup
 mv -f /cust/cust ./backup
 mv -f /cust/etc ./backup
