@@ -85,14 +85,14 @@ mv -v -f /system/app/facebook-appmanager ./dblot/system/app/
 mv -v -f /system/app/MiCloudSync ./dblot/system/app/
 # mv -v -f /system/app/MiConnectService ./dblot/system/app/
 mv -v -f /system/app/MIDrop ./dblot/system/app/
-# mv -v -f /system/app/MiLinkGlobal ./dblot/system/app/
+mv -v -f /system/app/MiLinkGlobal ./dblot/system/app/
 # mv -v -f /system/app/MIRadioGlobalBuiltin ./dblot/system/app/
 # mv -v -f /system/app/MiSound ./dblot/system/app/
 # mv -v -f /system/app/miui ./dblot/system/app/
 # mv -v -f /system/app/MiuiAudioMonitor ./dblot/system/app/
 # mv -v -f /system/app/MiuiBiometric ./dblot/system/app/
 # mv -v -f /system/app/MiuiBluetooth ./dblot/system/app/
-# mv -v -f /system/app/MiuiBugReport ./dblot/system/app/
+mv -v -f /system/app/MiuiBugReport ./dblot/system/app/
 mv -v -f /system/app/MIUICalculatorGlobal ./dblot/system/app/
 # mv -v -f /system/app/MIUICompassGlobal ./dblot/system/app/
 # mv -v -f /system/app/MiuiDaemon ./dblot/system/app/
