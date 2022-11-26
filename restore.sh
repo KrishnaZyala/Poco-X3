@@ -135,7 +135,7 @@
 # mv -v -f ./dblot/system/priv-app/ONS /system/priv-app/
 # mv -v -f ./dblot/system/priv-app/Provision /system/priv-app/
 # mv -v -f ./dblot/system/priv-app/ProxyHandler /system/priv-app/
-# mv -v -f ./dblot/system/priv-app/RtMiCloudSDK /system/priv-app/
+mv -v -f ./dblot/system/priv-app/RtMiCloudSDK /system/priv-app/
 # mv -v -f ./dblot/system/priv-app/SecurityCenter /system/priv-app/
 # mv -v -f ./dblot/system/priv-app/SettingsProvider /system/priv-app/
 # mv -v -f ./dblot/system/priv-app/SharedStorageBackup /system/priv-app/

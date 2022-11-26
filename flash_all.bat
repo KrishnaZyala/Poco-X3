@@ -63,7 +63,6 @@ fastboot %* flash recovery %~dp0images\recovery.img || @echo "Flash recovery err
 fastboot %* flash super %~dp0images\super.img || @echo "Flash super error" && exit /B 1
 fastboot %* flash userdata %~dp0images\userdata.img || @echo "Flash userdata error" && exit /B 1
 fastboot %* flash vbmeta_system %~dp0images\vbmeta_system.img || @echo "Flash vbmeta_system error" && exit /B 1
-fastboot %* flash cust %~dp0images\cust.img || @echo "Flash cust error" && exit /B 1
 
 fastboot %* flash ffu %~dp0images\ffu.img || @echo "Flash ffu error" && exit /B 1
 
