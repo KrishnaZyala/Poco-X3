@@ -1,4 +1,4 @@
-mkdir -v -p ./dblot/cust
+mkdir -v -p ./dblot/cust/app
 mv -v -f /cust/* ./dblot/cust/
 
 mkdir -v -p ./dblot/product/{app,data-app,priv-app}
@@ -52,21 +52,21 @@ mv -v -f /product/priv-app/GoogleAssistant ./dblot/product/priv-app/
 # mv -v -f /product/priv-app/SettingsIntelligence ./dblot/product/priv-app/
 # mv -v -f /product/priv-app/Turbo ./dblot/product/priv-app/
 # mv -v -f /product/priv-app/Velvet ./dblot/product/priv-app/
-mv -v -f /product/priv-app/Wellbeing ./dblot/product/priv-app/
+# mv -v -f /product/priv-app/Wellbeing ./dblot/product/priv-app/
 
 mkdir -v -p ./dblot/system/{app,data-app,priv-app} 
 mv -v -f /system/app/AnalyticsCore ./dblot/system/app/
 # mv -v -f /system/app/BasicDreams ./dblot/system/app/
 # mv -v -f /system/app/Bluetooth ./dblot/system/app/
 # mv -v -f /system/app/BluetoothMidiService ./dblot/system/app/
-# mv -v -f /system/app/BookmarkProvider ./dblot/system/app/
+mv -v -f /system/app/BookmarkProvider ./dblot/system/app/
 # mv -v -f /system/app/CameraExtensionsProxy ./dblot/system/app/
 # mv -v -f /system/app/CameraTest_J20C ./dblot/system/app/
 # mv -v -f /system/app/CaptivePortalLoginGoogle ./dblot/system/app/
 # mv -v -f /system/app/CarrierDefaultApp ./dblot/system/app/
 # mv -v -f /system/app/CertInstaller ./dblot/system/app/
 # mv -v -f /system/app/Cit ./dblot/system/app/
-mv -v -f /system/app/CloudService ./dblot/system/app/
+# mv -v -f /system/app/CloudService ./dblot/system/app/
 # mv -v -f /system/app/CompanionDeviceManager ./dblot/system/app/
 # mv -v -f /system/app/EasterEgg ./dblot/system/app/
 mv -v -f /system/app/facebook-appmanager ./dblot/system/app/
@@ -83,24 +83,24 @@ mv -v -f /system/app/facebook-appmanager ./dblot/system/app/
 # mv -v -f /system/app/KeyChain ./dblot/system/app/
 # mv -v -f /system/app/LiveWallpapersPicker ./dblot/system/app/
 mv -v -f /system/app/MiCloudSync ./dblot/system/app/
-# mv -v -f /system/app/MiConnectService ./dblot/system/app/
+mv -v -f /system/app/MiConnectService ./dblot/system/app/
 mv -v -f /system/app/MIDrop ./dblot/system/app/
 mv -v -f /system/app/MiLinkGlobal ./dblot/system/app/
 # mv -v -f /system/app/MIRadioGlobalBuiltin ./dblot/system/app/
 # mv -v -f /system/app/MiSound ./dblot/system/app/
 # mv -v -f /system/app/miui ./dblot/system/app/
-# mv -v -f /system/app/MiuiAudioMonitor ./dblot/system/app/
+mv -v -f /system/app/MiuiAudioMonitor ./dblot/system/app/
 # mv -v -f /system/app/MiuiBiometric ./dblot/system/app/
 # mv -v -f /system/app/MiuiBluetooth ./dblot/system/app/
 mv -v -f /system/app/MiuiBugReport ./dblot/system/app/
 mv -v -f /system/app/MIUICalculatorGlobal ./dblot/system/app/
 # mv -v -f /system/app/MIUICompassGlobal ./dblot/system/app/
-# mv -v -f /system/app/MiuiDaemon ./dblot/system/app/
-# mv -v -f /system/app/MIUIDeskClockGlobalS ./dblot/system/app/
+mv -v -f /system/app/MiuiDaemon ./dblot/system/app/
+mv -v -f /system/app/MIUIDeskClockGlobalS ./dblot/system/app/
 mv -v -f /system/app/MIUIFileExplorerGlobal ./dblot/system/app/
 mv -v -f /system/app/MIUIFrequentPhrase ./dblot/system/app/
 # mv -v -f /system/app/MIUIGlobalLayout ./dblot/system/app/
-mv -v -f /system/app/MIUIGlobalPackageInstaller ./dblot/system/app/
+# mv -v -f /system/app/MIUIGlobalPackageInstaller ./dblot/system/app/
 # mv -v -f /system/app/MIUIGuardProviderGlobal ./dblot/system/app/
 mv -v -f /system/app/MIUIHealthGlobal ./dblot/system/app/
 mv -v -f /system/app/MIUIMiPicks ./dblot/system/app/
@@ -119,12 +119,12 @@ mv -v -f /system/app/MIUIVideoPlayer ./dblot/system/app/
 # mv -v -f /system/app/miuix ./dblot/system/app/
 # mv -v -f /system/app/MiuixEditor_global ./dblot/system/app/
 # mv -v -f /system/app/MIWallpaper ./dblot/system/app/
-# mv -v -f /system/app/MSA-Global ./dblot/system/app/
+mv -v -f /system/app/MSA-Global ./dblot/system/app/
 # mv -v -f /system/app/NotificationCenter ./dblot/system/app/
 # mv -v -f /system/app/PacProcessor ./dblot/system/app/
 # mv -v -f /system/app/PartnerBookmarksProvider ./dblot/system/app/
-# mv -v -f /system/app/PaymentService ./dblot/system/app/
-mv -v -f /system/app/PlayAutoInstallStubApp ./dblot/system/app/
+mv -v -f /system/app/PaymentService ./dblot/system/app/
+# mv -v -f /system/app/PlayAutoInstallStubApp ./dblot/system/app/
 # mv -v -f /system/app/PowerChecker ./dblot/system/app/
 # mv -v -f /system/app/PowerKeeper ./dblot/system/app/
 # mv -v -f /system/app/Sar_J20C ./dblot/system/app/
@@ -140,9 +140,9 @@ mv -v -f /system/app/PlayAutoInstallStubApp ./dblot/system/app/
 # mv -v -f /system/app/XiaomiAccount ./dblot/system/app/
 mv -v -f /system/app/XiaomiServiceFrameworkGlobal ./dblot/system/app/
 # mv -v -f /system/app/XiaomiSimActivateService ./dblot/system/app/
-# mv -v -f /system/app/XMSFKeeperAll ./dblot/system/app/
+mv -v -f /system/app/XMSFKeeperAll ./dblot/system/app/
 
-mv -v -f /system/data-app/XMRemoteController ./dblot/system/data-app/
+# mv -v -f /system/data-app/XMRemoteController ./dblot/system/data-app/
 
 # mv -v -f /system/priv-app/AuthManager ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/Backup ./dblot/system/priv-app/
@@ -154,7 +154,7 @@ mv -v -f /system/data-app/XMRemoteController ./dblot/system/data-app/
 # mv -v -f /system/priv-app/CallLogBackup ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/CellBroadcastLegacyApp ./dblot/system/priv-app/
 mv -v -f /system/priv-app/CleanMaster ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/CloudBackup ./dblot/system/priv-app/
+mv -v -f /system/priv-app/CloudBackup ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/ContactsProvider ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/DocumentsUIGoogle ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/DownloadProvider ./dblot/system/priv-app/
@@ -176,7 +176,7 @@ mv -v -f /system/priv-app/MIService ./dblot/system/priv-app/
 mv -v -f /system/priv-app/MIShareGlobal ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/MiuiCamera ./dblot/system/priv-app/
 mv -v -f /system/priv-app/MiuiExtraPhoto ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MiuiFreeformService ./dblot/system/priv-app/
+# mv -v -f /system/priv-app/MiuiFreeformService ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/MIUIGalleryGlobal ./dblot/system/priv-app/
 mv -v -f /system/priv-app/MIUIGlobalMinusScreen ./dblot/system/priv-app/
 mv -v -f /system/priv-app/MIUIMusicGlobal ./dblot/system/priv-app/
@@ -192,7 +192,7 @@ mv -v -f /system/priv-app/MIUIYellowPageGlobal ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/ONS ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/Provision ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/ProxyHandler ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/RtMiCloudSDK ./dblot/system/priv-app/
+mv -v -f /system/priv-app/RtMiCloudSDK ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/SecurityCenter ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/SettingsProvider ./dblot/system/priv-app/
 # mv -v -f /system/priv-app/SharedStorageBackup ./dblot/system/priv-app/
