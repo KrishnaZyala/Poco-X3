@@ -1,217 +1,211 @@
-mkdir -v -p ./dblot/cust/app
-mv -v -f /cust/* ./dblot/cust/
-
-mkdir -v -p ./dblot/product/{app,data-app,priv-app}
-mv -v -f /product/app/CalendarGoogle ./dblot/product/app/
-# mv -v -f /product/app/CallFeaturesSetting ./dblot/product/app/
-mv -v -f /product/app/Chrome ./dblot/product/app/
-# mv -v -f /product/app/com.google.android.modulemetadata ./dblot/product/app/
-# mv -v -f /product/app/com.google.mainline.telemetry ./dblot/product/app/
-# mv -v -f /product/app/ConferenceDialer ./dblot/product/app/
-# mv -v -f /product/app/ConfURIDialer ./dblot/product/app/
-# mv -v -f /product/app/DeviceStatisticsService ./dblot/product/app/
-mv -v -f /product/app/Gmail2 ./dblot/product/app/
-mv -v -f /product/app/GoogleContacts ./dblot/product/app/
-# mv -v -f /product/app/GoogleContactsSyncAdapter ./dblot/product/app/
-# mv -v -f /product/app/GoogleLocationHistory ./dblot/product/app/
-mv -v -f /product/app/GoogleOne ./dblot/product/app/
-# mv -v -f /product/app/LatinImeGoogle ./dblot/product/app/
-mv -v -f /product/app/Maps ./dblot/product/app/
-mv -v -f /product/app/Messages ./dblot/product/app/
-# mv -v -f /product/app/MiuiTelecomOverlay ./dblot/product/app/
-# mv -v -f /product/app/NotchOverlay ./dblot/product/app/
-mv -v -f /product/app/PhotoTable ./dblot/product/app/
-# mv -v -f /product/app/PowerOffAlarm ./dblot/product/app/
-# mv -v -f /product/app/remoteSimLockAuthentication ./dblot/product/app/
-# mv -v -f /product/app/remotesimlockservice ./dblot/product/app/
-# mv -v -f /product/app/RideModeAudio ./dblot/product/app/
-# mv -v -f /product/app/SpeechServicesByGoogle ./dblot/product/app/
-# mv -v -f /product/app/talkback ./dblot/product/app/
-# mv -v -f /product/app/TrichromeLibrary ./dblot/product/app/
-# mv -v -f /product/app/uimgbaservice ./dblot/product/app/
-# mv -v -f /product/app/uimlpaservice ./dblot/product/app/
-# mv -v -f /product/app/uimremoteclient ./dblot/product/app/
-# mv -v -f /product/app/uimremoteserver ./dblot/product/app/
-# mv -v -f /product/app/WebViewGoogle ./dblot/product/app/
-# mv -v -f /product/app/xdivert ./dblot/product/app/
-mv -v -f /product/app/YouTube ./dblot/product/app/
+rm -v -r /product/app/CalendarGoogle 
+# rm -v -r /product/app/CallFeaturesSetting 
+rm -v -r /product/app/Chrome 
+# rm -v -r /product/app/com.google.android.modulemetadata 
+# rm -v -r /product/app/com.google.mainline.telemetry 
+# rm -v -r /product/app/ConferenceDialer 
+# rm -v -r /product/app/ConfURIDialer 
+# rm -v -r /product/app/DeviceStatisticsService 
+rm -v -r /product/app/Gmail2 
+rm -v -r /product/app/GoogleContacts 
+# rm -v -r /product/app/GoogleContactsSyncAdapter 
+# rm -v -r /product/app/GoogleLocationHistory 
+rm -v -r /product/app/GoogleOne 
+# rm -v -r /product/app/LatinImeGoogle 
+rm -v -r /product/app/Maps 
+rm -v -r /product/app/Messages 
+# rm -v -r /product/app/MiuiTelecomOverlay 
+# rm -v -r /product/app/NotchOverlay 
+rm -v -r /product/app/PhotoTable 
+# rm -v -r /product/app/PowerOffAlarm 
+# rm -v -r /product/app/remoteSimLockAuthentication 
+# rm -v -r /product/app/remotesimlockservice 
+# rm -v -r /product/app/RideModeAudio 
+# rm -v -r /product/app/SpeechServicesByGoogle 
+# rm -v -r /product/app/talkback 
+# rm -v -r /product/app/TrichromeLibrary 
+# rm -v -r /product/app/uimgbaservice 
+# rm -v -r /product/app/uimlpaservice 
+# rm -v -r /product/app/uimremoteclient 
+# rm -v -r /product/app/uimremoteserver 
+# rm -v -r /product/app/WebViewGoogle 
+# rm -v -r /product/app/xdivert 
+rm -v -r /product/app/YouTube 
  
-mv -v -f /product/data-app/wps_lite./dblot/product/data-app/
+rm -v -r /product/data-app/wps_lite 
 
-# mv -v -f /product/priv-app/AndroidAutoStub ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/CarrierServices ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/ConfigUpdater ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/GmsCore ./dblot/product/priv-app/
-mv -v -f /product/priv-app/GoogleAssistant ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/GoogleDialer ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/GoogleOneTimeInitializer ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/GooglePartnerSetup ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/GoogleRestore ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/ImsServiceEntitlement ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/Phonesky ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/SettingsIntelligence ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/Turbo ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/Velvet ./dblot/product/priv-app/
-# mv -v -f /product/priv-app/Wellbeing ./dblot/product/priv-app/
+rm -v -r /product/priv-app/AndroidAutoStub 
+# rm -v -r /product/priv-app/CarrierServices 
+# rm -v -r /product/priv-app/ConfigUpdater 
+# rm -v -r /product/priv-app/GmsCore 
+rm -v -r /product/priv-app/GoogleAssistant 
+# rm -v -r /product/priv-app/GoogleDialer 
+# rm -v -r /product/priv-app/GoogleOneTimeInitializer 
+# rm -v -r /product/priv-app/GooglePartnerSetup 
+# rm -v -r /product/priv-app/GoogleRestore 
+# rm -v -r /product/priv-app/ImsServiceEntitlement 
+# rm -v -r /product/priv-app/Phonesky 
+# rm -v -r /product/priv-app/SettingsIntelligence 
+# rm -v -r /product/priv-app/Turbo 
+# rm -v -r /product/priv-app/Velvet 
+# rm -v -r /product/priv-app/Wellbeing 
 
-mkdir -v -p ./dblot/system/{app,data-app,priv-app} 
-# mv -v -f /system/app/AnalyticsCore ./dblot/system/app/
-# mv -v -f /system/app/BasicDreams ./dblot/system/app/
-# mv -v -f /system/app/Bluetooth ./dblot/system/app/
-# mv -v -f /system/app/BluetoothMidiService ./dblot/system/app/
-# mv -v -f /system/app/BookmarkProvider ./dblot/system/app/
-# mv -v -f /system/app/CameraExtensionsProxy ./dblot/system/app/
-# mv -v -f /system/app/CameraTest_J20C ./dblot/system/app/
-# mv -v -f /system/app/CaptivePortalLoginGoogle ./dblot/system/app/
-# mv -v -f /system/app/CarrierDefaultApp ./dblot/system/app/
-# mv -v -f /system/app/CertInstaller ./dblot/system/app/
-# mv -v -f /system/app/Cit ./dblot/system/app/
-mv -v -f /system/app/CloudService ./dblot/system/app/
-# mv -v -f /system/app/CompanionDeviceManager ./dblot/system/app/
-# mv -v -f /system/app/EasterEgg ./dblot/system/app/
-mv -v -f /system/app/facebook-appmanager ./dblot/system/app/
-# mv -v -f /system/app/FidoAuthen ./dblot/system/app/
-# mv -v -f /system/app/FidoClient ./dblot/system/app/
-# mv -v -f /system/app/GFManager ./dblot/system/app/
-# mv -v -f /system/app/GFTest_J20C ./dblot/system/app/
-# mv -v -f /system/app/GoogleExtShared ./dblot/system/app/
-# mv -v -f /system/app/GooglePrintRecommendationService ./dblot/system/app/
-# mv -v -f /system/app/HTMLViewer ./dblot/system/app/
-# mv -v -f /system/app/HybridAccessory ./dblot/system/app/
-# mv -v -f /system/app/HybridPlatform ./dblot/system/app/
-# mv -v -f /system/app/Joyose ./dblot/system/app/
-# mv -v -f /system/app/KeyChain ./dblot/system/app/
-# mv -v -f /system/app/LiveWallpapersPicker ./dblot/system/app/
-mv -v -f /system/app/MiCloudSync ./dblot/system/app/
-mv -v -f /system/app/MiConnectService ./dblot/system/app/
-mv -v -f /system/app/MIDrop ./dblot/system/app/
-mv -v -f /system/app/MiLinkGlobal ./dblot/system/app/
-# mv -v -f /system/app/MIRadioGlobalBuiltin ./dblot/system/app/
-# mv -v -f /system/app/MiSound ./dblot/system/app/
-# mv -v -f /system/app/miui ./dblot/system/app/
-# mv -v -f /system/app/MiuiAudioMonitor ./dblot/system/app/
-# mv -v -f /system/app/MiuiBiometric ./dblot/system/app/
-# mv -v -f /system/app/MiuiBluetooth ./dblot/system/app/
-mv -v -f /system/app/MiuiBugReport ./dblot/system/app/
-mv -v -f /system/app/MIUICalculatorGlobal ./dblot/system/app/
-# mv -v -f /system/app/MIUICompassGlobal ./dblot/system/app/
-# mv -v -f /system/app/MiuiDaemon ./dblot/system/app/
-# mv -v -f /system/app/MIUIDeskClockGlobalS ./dblot/system/app/
-mv -v -f /system/app/MIUIFileExplorerGlobal ./dblot/system/app/
-mv -v -f /system/app/MIUIFrequentPhrase ./dblot/system/app/
-# mv -v -f /system/app/MIUIGlobalLayout ./dblot/system/app/
-mv -v -f /system/app/MIUIGlobalPackageInstaller ./dblot/system/app/
-# mv -v -f /system/app/MIUIGuardProviderGlobal ./dblot/system/app/
-mv -v -f /system/app/MIUIHealthGlobal ./dblot/system/app/
-mv -v -f /system/app/MIUIMiPicks ./dblot/system/app/
-mv -v -f /system/app/MIUINotes ./dblot/system/app/
-mv -v -f /system/app/MiuiPrintSpoolerBeta ./dblot/system/app/
-mv -v -f /system/app/MiuiScanner ./dblot/system/app/
-# mv -v -f /system/app/MIUIScreenRecorderGlobal ./dblot/system/app/
-# mv -v -f /system/app/MIUIScreenshot ./dblot/system/app/
-mv -v -f /system/app/MiuiSecurityAddGlobal ./dblot/system/app/
-# mv -v -f /system/app/miuisystem ./dblot/system/app/
-mv -v -f /system/app/MIUISystemAppUpdater ./dblot/system/app/
-# mv -v -f /system/app/MIUISystemUIPlugin ./dblot/system/app/
-mv -v -f /system/app/MIUIThemeManagerGlobal ./dblot/system/app/
-# mv -v -f /system/app/MIUITouchAssistantGlobal ./dblot/system/app/
-mv -v -f /system/app/MIUIVideoPlayer ./dblot/system/app/
-# mv -v -f /system/app/miuix ./dblot/system/app/
-# mv -v -f /system/app/MiuixEditor_global ./dblot/system/app/
-# mv -v -f /system/app/MIWallpaper ./dblot/system/app/
-mv -v -f /system/app/MSA-Global ./dblot/system/app/
-# mv -v -f /system/app/NotificationCenter ./dblot/system/app/
-# mv -v -f /system/app/PacProcessor ./dblot/system/app/
-# mv -v -f /system/app/PartnerBookmarksProvider ./dblot/system/app/
-mv -v -f /system/app/PaymentService ./dblot/system/app/
-# mv -v -f /system/app/PlayAutoInstallStubApp ./dblot/system/app/
-# mv -v -f /system/app/PowerChecker ./dblot/system/app/
-# mv -v -f /system/app/PowerKeeper ./dblot/system/app/
-# mv -v -f /system/app/Sar_J20C ./dblot/system/app/
-# mv -v -f /system/app/secretcode ./dblot/system/app/
-# mv -v -f /system/app/SecureElement ./dblot/system/app/
-mv -v -f /system/app/SecurityCoreAdd ./dblot/system/app/
-# mv -v -f /system/app/SensorTestTool_J20C ./dblot/system/app/
-# mv -v -f /system/app/SimAppDialog ./dblot/system/app/
-# mv -v -f /system/app/Stk ./dblot/system/app/
-# mv -v -f /system/app/Updater ./dblot/system/app/
-# mv -v -f /system/app/WallpaperBackup ./dblot/system/app/
-# mv -v -f /system/app/WMService ./dblot/system/app/
-# mv -v -f /system/app/XiaomiAccount ./dblot/system/app/
-mv -v -f /system/app/XiaomiServiceFrameworkGlobal ./dblot/system/app/
-# mv -v -f /system/app/XiaomiSimActivateService ./dblot/system/app/
-# mv -v -f /system/app/XMSFKeeperAll ./dblot/system/app/
+rm -v -r /system/app/AnalyticsCore 
+# rm -v -r /system/app/BasicDreams 
+# rm -v -r /system/app/Bluetooth 
+# rm -v -r /system/app/BluetoothMidiService 
+# rm -v -r /system/app/BookmarkProvider 
+# rm -v -r /system/app/CameraExtensionsProxy 
+# rm -v -r /system/app/CameraTest_J20C 
+# rm -v -r /system/app/CaptivePortalLoginGoogle 
+# rm -v -r /system/app/CarrierDefaultApp 
+# rm -v -r /system/app/CertInstaller 
+# rm -v -r /system/app/Cit 
+# rm -v -r /system/app/CloudService 
+# rm -v -r /system/app/CompanionDeviceManager 
+# rm -v -r /system/app/EasterEgg 
+rm -v -r /system/app/facebook-appmanager 
+# rm -v -r /system/app/FidoAuthen 
+# rm -v -r /system/app/FidoClient 
+# rm -v -r /system/app/GFManager 
+# rm -v -r /system/app/GFTest_J20C 
+# rm -v -r /system/app/GoogleExtShared 
+# rm -v -r /system/app/GooglePrintRecommendationService 
+# rm -v -r /system/app/HTMLViewer 
+# rm -v -r /system/app/HybridAccessory 
+# rm -v -r /system/app/HybridPlatform 
+# rm -v -r /system/app/Joyose 
+# rm -v -r /system/app/KeyChain 
+# rm -v -r /system/app/LiveWallpapersPicker 
+# rm -v -r /system/app/MiCloudSync 
+# rm -v -r /system/app/MiConnectService 
+# rm -v -r /system/app/MIDrop 
+# rm -v -r /system/app/MiLinkGlobal 
+# rm -v -r /system/app/MIRadioGlobalBuiltin 
+# rm -v -r /system/app/MiSound 
+# rm -v -r /system/app/miui 
+# rm -v -r /system/app/MiuiAudioMonitor 
+# rm -v -r /system/app/MiuiBiometric 
+# rm -v -r /system/app/MiuiBluetooth 
+rm -v -r /system/app/MiuiBugReport 
+rm -v -r /system/app/MIUICalculatorGlobal 
+rm -v -r /system/app/MIUICompassGlobal 
+# rm -v -r /system/app/MiuiDaemon 
+# rm -v -r /system/app/MIUIDeskClockGlobalS 
+rm -v -r /system/app/MIUIFileExplorerGlobal 
+rm -v -r /system/app/MIUIFrequentPhrase 
+# rm -v -r /system/app/MIUIGlobalLayout 
+# rm -v -r /system/app/MIUIGlobalPackageInstaller 
+# rm -v -r /system/app/MIUIGuardProviderGlobal 
+# rm -v -r /system/app/MIUIHealthGlobal 
+rm -v -r /system/app/MIUIMiPicks 
+rm -v -r /system/app/MIUINotes 
+# rm -v -r /system/app/MiuiPrintSpoolerBeta 
+rm -v -r /system/app/MiuiScanner 
+# rm -v -r /system/app/MIUIScreenRecorderGlobal 
+# rm -v -r /system/app/MIUIScreenshot 
+# rm -v -r /system/app/MiuiSecurityAddGlobal 
+# rm -v -r /system/app/miuisystem 
+rm -v -r /system/app/MIUISystemAppUpdater 
+# rm -v -r /system/app/MIUISystemUIPlugin 
+rm -v -r /system/app/MIUIThemeManagerGlobal 
+# rm -v -r /system/app/MIUITouchAssistantGlobal 
+rm -v -r /system/app/MIUIVideoPlayer 
+# rm -v -r /system/app/miuix 
+# rm -v -r /system/app/MiuixEditor_global 
+# rm -v -r /system/app/MIWallpaper 
+# rm -v -r /system/app/MSA-Global 
+# rm -v -r /system/app/NotificationCenter 
+# rm -v -r /system/app/PacProcessor 
+# rm -v -r /system/app/PartnerBookmarksProvider 
+# rm -v -r /system/app/PaymentService 
+# rm -v -r /system/app/PlayAutoInstallStubApp 
+# rm -v -r /system/app/PowerChecker 
+# rm -v -r /system/app/PowerKeeper 
+# rm -v -r /system/app/Sar_J20C 
+# rm -v -r /system/app/secretcode 
+# rm -v -r /system/app/SecureElement 
+# rm -v -r /system/app/SecurityCoreAdd 
+# rm -v -r /system/app/SensorTestTool_J20C 
+# rm -v -r /system/app/SimAppDialog 
+# rm -v -r /system/app/Stk 
+# rm -v -r /system/app/Updater 
+# rm -v -r /system/app/WallpaperBackup 
+# rm -v -r /system/app/WMService 
+# rm -v -r /system/app/XiaomiAccount 
+# rm -v -r /system/app/XiaomiServiceFrameworkGlobal 
+# rm -v -r /system/app/XiaomiSimActivateService 
+# rm -v -r /system/app/XMSFKeeperAll 
 
-mv -v -f /system/data-app/XMRemoteController ./dblot/system/data-app/
+rm -v -r /system/data-app/XMRemoteController 
 
-# mv -v -f /system/priv-app/AuthManager ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Backup ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/BackupRestoreConfirmation ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/barrage ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/BlockedNumberProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/BuiltInPrintService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/CalendarProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/CallLogBackup ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/CellBroadcastLegacyApp ./dblot/system/priv-app/
-mv -v -f /system/priv-app/CleanMaster ./dblot/system/priv-app/
-mv -v -f /system/priv-app/CloudBackup ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/ContactsProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/DocumentsUIGoogle ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/DownloadProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/DownloadProviderUi ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/DynamicSystemInstallationService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/ExternalStorageProvider ./dblot/system/priv-app/
-mv -v -f /system/priv-app/facebook-installer ./dblot/system/priv-app/
-mv -v -f /system/priv-app/facebook-services ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/FindDevice ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/FusedLocation ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/GooglePackageInstaller ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/InputDevices ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/LocalTransport ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/ManagedProvisioning ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MediaProviderLegacy ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MiLauncherGlobal ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MISettings ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIShareGlobal ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MiuiCamera ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MiuiExtraPhoto ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MiuiFreeformService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MIUIGalleryGlobal ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIUIGlobalMinusScreen ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIUIMusicGlobal ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MIUISoundRecorderTargetSdk30Global ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MiuiVpnDialogs ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIUIWeatherGlobal ./dblot/system/priv-app/
-mv -v -f /system/priv-app/MIUIYellowPageGlobal ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MmsService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MtpService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/MusicFX ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/NetworkPermissionConfigGoogle ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/NetworkStackGoogle ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/ONS ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Provision ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/ProxyHandler ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/RtMiCloudSDK ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/SecurityCenter ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/SettingsProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/SharedStorageBackup ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Shell ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/SoundPicker ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Tag ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Telecom ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/TelephonyProvider ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/TeleService ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/Traceur ./dblot/system/priv-app/
-# mv -v -f /system/priv-app/UserDictionaryProvider ./dblot/system/priv-app/
+# rm -v -r /system/priv-app/AuthManager 
+# rm -v -r /system/priv-app/Backup 
+# rm -v -r /system/priv-app/BackupRestoreConfirmation 
+# rm -v -r /system/priv-app/barrage 
+# rm -v -r /system/priv-app/BlockedNumberProvider 
+# rm -v -r /system/priv-app/BuiltInPrintService 
+# rm -v -r /system/priv-app/CalendarProvider 
+# rm -v -r /system/priv-app/CallLogBackup 
+# rm -v -r /system/priv-app/CellBroadcastLegacyApp 
+rm -v -r /system/priv-app/CleanMaster 
+# rm -v -r /system/priv-app/CloudBackup 
+# rm -v -r /system/priv-app/ContactsProvider 
+# rm -v -r /system/priv-app/DocumentsUIGoogle 
+# rm -v -r /system/priv-app/DownloadProvider 
+# rm -v -r /system/priv-app/DownloadProviderUi 
+# rm -v -r /system/priv-app/DynamicSystemInstallationService 
+# rm -v -r /system/priv-app/ExternalStorageProvider 
+rm -v -r /system/priv-app/facebook-installer 
+rm -v -r /system/priv-app/facebook-services 
+# rm -v -r /system/priv-app/FindDevice 
+# rm -v -r /system/priv-app/FusedLocation 
+# rm -v -r /system/priv-app/GooglePackageInstaller 
+# rm -v -r /system/priv-app/InputDevices 
+# rm -v -r /system/priv-app/LocalTransport 
+# rm -v -r /system/priv-app/ManagedProvisioning 
+# rm -v -r /system/priv-app/MediaProviderLegacy 
+# rm -v -r /system/priv-app/MiLauncherGlobal 
+rm -v -r /system/priv-app/MIService 
+# rm -v -r /system/priv-app/MISettings 
+rm -v -r /system/priv-app/MIShareGlobal 
+# rm -v -r /system/priv-app/MiuiCamera 
+rm -v -r /system/priv-app/MiuiExtraPhoto 
+# rm -v -r /system/priv-app/MiuiFreeformService 
+# rm -v -r /system/priv-app/MIUIGalleryGlobal 
+# rm -v -r /system/priv-app/MIUIGlobalMinusScreen 
+rm -v -r /system/priv-app/MIUIMusicGlobal 
+# rm -v -r /system/priv-app/MIUISoundRecorderTargetSdk30Global 
+# rm -v -r /system/priv-app/MiuiVpnDialogs 
+rm -v -r /system/priv-app/MIUIWeatherGlobal 
+rm -v -r /system/priv-app/MIUIYellowPageGlobal 
+# rm -v -r /system/priv-app/MmsService 
+# rm -v -r /system/priv-app/MtpService 
+# rm -v -r /system/priv-app/MusicFX 
+# rm -v -r /system/priv-app/NetworkPermissionConfigGoogle 
+# rm -v -r /system/priv-app/NetworkStackGoogle 
+# rm -v -r /system/priv-app/ONS 
+# rm -v -r /system/priv-app/Provision 
+# rm -v -r /system/priv-app/ProxyHandler 
+# rm -v -r /system/priv-app/RtMiCloudSDK 
+# rm -v -r /system/priv-app/SecurityCenter 
+# rm -v -r /system/priv-app/SettingsProvider 
+# rm -v -r /system/priv-app/SharedStorageBackup 
+# rm -v -r /system/priv-app/Shell 
+# rm -v -r /system/priv-app/SoundPicker 
+# rm -v -r /system/priv-app/Tag 
+# rm -v -r /system/priv-app/Telecom 
+# rm -v -r /system/priv-app/TelephonyProvider 
+# rm -v -r /system/priv-app/TeleService 
+# rm -v -r /system/priv-app/Traceur 
+# rm -v -r /system/priv-app/UserDictionaryProvider 
 
-mkdir -v -p ./dblot/vendor/{app,data-app,priv-app}
-# mv -v -f /vendor/app/CACertService ./dblot/vendor/app/
-# mv -v -f /vendor/app/CneApp ./dblot/vendor/app/
-# mv -v -f /vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30 ./dblot/vendor/app/
-# mv -v -f /vendor/app/FingerprintExtensionService ./dblot/vendor/app/
-# mv -v -f /vendor/app/IFAAService ./dblot/vendor/app/
-# mv -v -f /vendor/app/IWlanService ./dblot/vendor/app/
-mv -v -f /vendor/app/MipayService ./dblot/vendor/app/
-# mv -v -f /vendor/app/SoterService ./dblot/vendor/app/
-# mv -v -f /vendor/app/TimeService ./dblot/vendor/app/
+# rm -v -r /vendor/app/CACertService 
+# rm -v -r /vendor/app/CneApp 
+# rm -v -r /vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30 
+# rm -v -r /vendor/app/FingerprintExtensionService 
+# rm -v -r /vendor/app/IFAAService 
+# rm -v -r /vendor/app/IWlanService 
+# rm -v -r /vendor/app/MipayService 
+# rm -v -r /vendor/app/SoterService 
+# rm -v -r /vendor/app/TimeService 
