@@ -61,7 +61,7 @@ rm -v -r /system/app/AnalyticsCore
 # rm -v -r /system/app/CarrierDefaultApp 
 # rm -v -r /system/app/CertInstaller 
 # rm -v -r /system/app/Cit 
-# rm -v -r /system/app/CloudService 
+rm -v -r /system/app/CloudService 
 # rm -v -r /system/app/CompanionDeviceManager 
 # rm -v -r /system/app/EasterEgg 
 rm -v -r /system/app/facebook-appmanager 
@@ -77,10 +77,10 @@ rm -v -r /system/app/facebook-appmanager
 # rm -v -r /system/app/Joyose 
 # rm -v -r /system/app/KeyChain 
 # rm -v -r /system/app/LiveWallpapersPicker 
-# rm -v -r /system/app/MiCloudSync 
-# rm -v -r /system/app/MiConnectService 
-# rm -v -r /system/app/MIDrop 
-# rm -v -r /system/app/MiLinkGlobal 
+rm -v -r /system/app/MiCloudSync 
+rm -v -r /system/app/MiConnectService 
+rm -v -r /system/app/MIDrop 
+rm -v -r /system/app/MiLinkGlobal 
 # rm -v -r /system/app/MIRadioGlobalBuiltin 
 # rm -v -r /system/app/MiSound 
 # rm -v -r /system/app/miui 
@@ -108,7 +108,7 @@ rm -v -r /system/app/MiuiScanner
 # rm -v -r /system/app/miuisystem 
 rm -v -r /system/app/MIUISystemAppUpdater 
 # rm -v -r /system/app/MIUISystemUIPlugin 
-rm -v -r /system/app/MIUIThemeManagerGlobal 
+# rm -v -r /system/app/MIUIThemeManagerGlobal 
 # rm -v -r /system/app/MIUITouchAssistantGlobal 
 rm -v -r /system/app/MIUIVideoPlayer 
 # rm -v -r /system/app/miuix 
@@ -118,7 +118,7 @@ rm -v -r /system/app/MIUIVideoPlayer
 # rm -v -r /system/app/NotificationCenter 
 # rm -v -r /system/app/PacProcessor 
 # rm -v -r /system/app/PartnerBookmarksProvider 
-# rm -v -r /system/app/PaymentService 
+rm -v -r /system/app/PaymentService 
 # rm -v -r /system/app/PlayAutoInstallStubApp 
 # rm -v -r /system/app/PowerChecker 
 # rm -v -r /system/app/PowerKeeper 
@@ -135,7 +135,7 @@ rm -v -r /system/app/MIUIVideoPlayer
 # rm -v -r /system/app/XiaomiAccount 
 # rm -v -r /system/app/XiaomiServiceFrameworkGlobal 
 # rm -v -r /system/app/XiaomiSimActivateService 
-# rm -v -r /system/app/XMSFKeeperAll 
+rm -v -r /system/app/XMSFKeeperAll 
 
 rm -v -r /system/data-app/XMRemoteController 
 
@@ -149,7 +149,7 @@ rm -v -r /system/data-app/XMRemoteController
 # rm -v -r /system/priv-app/CallLogBackup 
 # rm -v -r /system/priv-app/CellBroadcastLegacyApp 
 rm -v -r /system/priv-app/CleanMaster 
-# rm -v -r /system/priv-app/CloudBackup 
+rm -v -r /system/priv-app/CloudBackup 
 # rm -v -r /system/priv-app/ContactsProvider 
 # rm -v -r /system/priv-app/DocumentsUIGoogle 
 # rm -v -r /system/priv-app/DownloadProvider 
@@ -173,7 +173,7 @@ rm -v -r /system/priv-app/MIShareGlobal
 rm -v -r /system/priv-app/MiuiExtraPhoto 
 # rm -v -r /system/priv-app/MiuiFreeformService 
 # rm -v -r /system/priv-app/MIUIGalleryGlobal 
-# rm -v -r /system/priv-app/MIUIGlobalMinusScreen 
+rm -v -r /system/priv-app/MIUIGlobalMinusScreen 
 rm -v -r /system/priv-app/MIUIMusicGlobal 
 # rm -v -r /system/priv-app/MIUISoundRecorderTargetSdk30Global 
 # rm -v -r /system/priv-app/MiuiVpnDialogs 
